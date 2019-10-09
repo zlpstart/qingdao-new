@@ -4,12 +4,16 @@ import App from './App.vue'
 import 'lib-flexible'
 import router from './router'
 import axios from 'axios'
+import vConsole from './assets/vsconsole'
+// import vconsole from 'vconsole'
+// import $ from 'jquery'
+// import wxShare from 'weixin-js-sdk'
 
 
 //vuex
 import vuex from 'vuex'
 Vue.use(vuex)
-
+Vue.use(vConsole)
 
 
 import 'babel-polyfill'

@@ -12,6 +12,7 @@
             <li><router-link to="/Footprint2">企业足迹</router-link></li>
             <li><router-link to="/Record2">企业档案</router-link></li>
             <li><router-link to="/License2">企业证照</router-link></li>
+            <li><router-link to="/ceshi">测试</router-link></li>
         </ul>
     </div>
 </template>

@@ -110,7 +110,7 @@
                     </div>
                 </div>
                 <div class="btn">
-                    <button @click="Opinion2">意见反馈</button>
+                    <button @click="Opinion">意见反馈</button>
                 </div>
                 <div class="bottom">
                     <span></span>
