@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import MySpace from './components/MySpace'
+// import MySpace from './components/MySpace'
 import Home from './components/Home'
 import Enterprise from './components/Enterprise'
 import Opinion from './components/Opinion'
@@ -16,6 +16,11 @@ import Footprint2 from './components/Footprint2'
 import NotFound from './components/NotFound'
 import ceshi from './components/ceshi.vue'
 import preview from './components/preview'
+import zlp from './components/zlp.vue'
+import timeshow from './components/Timeshow.vue'
+import A from './views/A.vue'
+import B from './views/B.vue'
+import none from './components/none.vue'
 
 
 Vue.use(Router)
@@ -23,109 +28,134 @@ Vue.use(Router)
 export default new Router({
   mode: 'history',
   routes: [
-    {
-      path: '/',
-      name: 'MySpace',
-      component:MySpace,
-      meta:{title:'青岛政务通'}
-    },
+    // {
+    //   path: '/',
+    //   name: 'MySpace',
+    //   component:MySpace,
+    //   meta:{title:'青岛政务通'}
+    // },
     {
       path: '/Home',
       name: 'Home',
-      component:Home,
-      meta:{title:'导航栏'}
+      component: Home,
+      meta: { title: '导航栏' }
     },
     {
       path: '/Opinion',
       name: 'Opinion',
-      component:Opinion,
-      meta:{title:'意见反馈'}
+      component: Opinion,
+      meta: { title: '意见反馈' }
     },
     {
       path: '/Enterprise',
       name: 'Enterprise',
-      component:Enterprise,
-      meta:{title:'企业空间'}
+      component: Enterprise,
+      meta: { title: '企业空间' }
     },
     {
       path: '/Opinion2',
       name: 'Opinion2',
-      component:Opinion2,
-      meta:{title:'企业意见反馈'}
+      component: Opinion2,
+      meta: { title: '企业意见反馈' }
     },
     {
-      path: '/Record',
+      path: '/',
       name: 'Record',
-      component:Record,
-      meta:{title:'我的档案'}
+      component: Record,
+      meta: { title: '我的档案' }
     },
     {
       path: '/Car',
       name: 'Car',
-      component:Car,
-      meta:{title:'车辆登记信息'}
+      component: Car,
+      meta: { title: '车辆登记信息' }
     },
     {
       path: '/House',
       name: 'House',
-      component:House,
-      meta:{title:'房屋登记信息'}
+      component: House,
+      meta: { title: '房屋登记信息' }
     },
     {
       path: '/License',
       name: 'License',
-      component:License,
-      meta:{title:'我的证照'}
+      component: License,
+      meta: { title: '我的证照' }
     },
     {
       path: '/Footprint',
       name: 'Footprint',
-      component:Footprint,
-      meta:{title:'我的足迹'}
+      component: Footprint,
+      meta: { title: '我的足迹' }
     },
     {
       path: '/Record2',
       name: 'Record2',
-      component:Record2,
-      meta:{title:'企业档案'}
+      component: Record2,
+      meta: { title: '企业档案' }
     },
     {
       path: '/Footprint2',
       name: 'Footprint2',
-      component:Footprint2,
-      meta:{title:'企业足迹'}
+      component: Footprint2,
+      meta: { title: '企业足迹' }
     },
     {
       path: '/License2',
       name: 'License2',
-      component:License2,
-      meta:{title:'企业证照'}
+      component: License2,
+      meta: { title: '企业证照' }
     },
     {
       path: '/License2',
       name: 'License2',
-      component:License2,
-      meta:{title:'企业证照'}
+      component: License2,
+      meta: { title: '企业证照' }
     },
     {
       path: '/ceshi',
       name: 'ceshi',
-      component:ceshi,
-      meta:{title:'企业证照'}
+      component: ceshi,
+      meta: { title: '企业证照' }
+    },
+    {
+      path: '/zlp',
+      name: 'zlp',
+      component: zlp,
+    },
+    {
+      path: '/timeshow',
+      name: 'timeshow',
+      component: timeshow,
     },
     {
       path: '/preview',
       name: 'preview',
-      component:preview,
-      meta:{title:'企业证照'}
+      component: preview,
+      meta: { title: '企业证照' }
+    },
+    {
+      path: '/A',
+      name: 'A',
+      component: A,
+    },
+    {
+      path: '/B',
+      name: 'B',
+      component: B,
+    },
+    {
+      path: '/none',
+      name: 'none',
+      component: none,
     },
     { /* 404必须是最后一个路由 */
       name: '404',
       path: '*',
       meta: {
-          title: '找不到页面'
+        title: '找不到页面'
       },
       component: NotFound
-  }
+    }
   ]
 })

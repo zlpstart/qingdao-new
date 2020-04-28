@@ -12,11 +12,11 @@
                     </div>
                     <div class="header_right_span">
                         <span>
-                            <img src="../assets/认证.png" alt="">
+                            <img src="../assets/authentication.png" alt="">
                             认证用户
                         </span>
                         <span>
-                            <img src="../assets/实名.png" alt="">
+                            <img src="../assets/autonym.png" alt="">
                             已实名
                         </span>
                     </div>
@@ -225,14 +225,14 @@ body {
   }
   .decorate_left {
     width: 0.24rem;
-    background: url("../assets/连接.png")no-repeat center center;
+    background: url("../assets/connect.png")no-repeat center center;
     background-size: 100%;
     height: 1.36rem;
     float: left;
   }
   .decorate_right {
     width: 0.24rem;
-    background: url("../assets/连接.png")no-repeat center center;
+    background: url("../assets/connect.png")no-repeat center center;
     height: 1.36rem;
     background-size: 100%;
     float: right;

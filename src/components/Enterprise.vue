@@ -12,11 +12,11 @@
                     </div>
                     <div class="header_right_span">
                         <span>
-                            <img src="../assets/认证.png" alt="">
+                            <img src="../assets/authentication.png" alt="">
                             认证用户
                         </span>
                         <span>
-                            <img src="../assets/实名.png" alt="">
+                            <img src="../assets/autonym.png" alt="">
                             已实名
                         </span>
                     </div>
@@ -247,15 +247,15 @@ body {
     line-height: 5rem;
 }
 .content_box:nth-child(1) {
-    background-image: url("../assets/我的档案.png");
+    background-image: url("../assets/files.png");
     background-size:100%; 
 }
 .content_box:nth-child(2) {
-    background-image: url("../assets/我的证照.png");
+    background-image: url("../assets/license.png");
     background-size:100%; 
 }
 .content_box:nth-child(3) {
-    background-image: url("../assets/我的足迹.png");
+    background-image: url("../assets/footprint.png");
     background-size:100%; 
 }
 .content_box p {

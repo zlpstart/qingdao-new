@@ -155,7 +155,7 @@
           </div>
           <div class="gengduo-top3">
             <div class="gengduo-img">
-              <img src="../assets/邮件.png" alt align="center" />
+              <img src="../assets/mail.png" alt align="center" />
             </div>
             <p>发送邮件</p>
           </div>
@@ -308,13 +308,13 @@
           </div>
           <div class="gengduo-top2">
             <div class="gengduo-img">
-              <img src="../assets/转发.png" align="center" />
+              <img src="../assets/transmit.png" align="center" />
             </div>
             <p>转发</p>
           </div>
           <div class="gengduo-top3">
             <div class="gengduo-img">
-              <img src="../assets/邮件.png" alt align="center" />
+              <img src="../assets/mail.png" alt align="center" />
             </div>
             <p>发送邮件</p>
           </div>

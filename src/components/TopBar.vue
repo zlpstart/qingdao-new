@@ -1,7 +1,7 @@
 <template>
-    <div class="TopBar">
-
-    </div>
+    <keep-alive>
+        <div class="TopBar"></div>
+    </keep-alive>
 </template>
 
 <script>

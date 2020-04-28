@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-
-    </style>
+<style>
+div>input{
+    display: none;
+}
+div>label{
+    position: relative;
+    margin-right: 34px;
+}
+div>label::before{
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid rgb(219, 219, 219);
+    margin-right: 6px;
+    vertical-align: bottom;
+}
+div>input:checked+label::before{
+    background-color: rgb(239, 66, 56);
+}
+div>input:checked+label::after{
+    display: inline-block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    background-color: white;
+}
+</style>
 </head>
-<body>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAACeElEQVR42u2aS26FMAxFnVGWwU4J7JQldJhRXPva4dHXVuqUWxCq+Bwq4fh7H6J/2T7kwR7swf4hdoht9Vhtl2Wrql3sYPipb40Is4NRdchiQOlLXnEy79Jg9uJr1a0e8fq77d1MZM8eZig6zBhf983+milEirozUGIrFnqFDwxYZtBhccVg83B3dY0Y/zEW7o29Etfb/lt+uysWW1433/bl9gzmwLeadWvMFjdz10A473AAhLY/1Xgwv6s9KpEZAYkaJcksE2ZhwY6iVok0jKBRcM0suK5UmG872ifDdpRds8/uzx7Xpb8/5sEbDcZawzju9jOcmTCvRAUwekUL4Yxr75MrE+bv7olrto4Ffu4ZDP+BCNNIWUXTw3fNgosrVNh2jnKek5c4RfH1wqREGLL0IbP5Lxjx9vf2mADz4xXN/3rGdYdNPGkzYXByOMB8BPmqR/G99Ja3x/yWoJsak8EpHODShxBgZ7UtZ3fRAz6uxYgAK12yE+7o/D13RWjrRoWhtmb8SmSwEJ22+t5K3R3bsjFGokaHPMLP4QbKg6H6gAmlNNWYmkms8WDonWoIpDG6xsDui34d7giwrUZEa1QfNI2eu0rq4TzYkBwEQpcI8TDDmQqDJ7sIM/cpQGXG5sEyTWGYzZrbdA4CdFgIEV5tp2PvmjmNCMOEPsnQ04bkdvWQ+2M53zXEL7TEFEubXptGAmz+qDH1JZ/p4APrV1mYAGuppEk7Vx8luKFVViIs51bNEQ8q8TLmr1R0WMrgMhWJSNeY4tmwU9hHOLvy/6apEmD54Ud9jbTh6oIAZ8LOH5RlOkB+CNHlGs73x55P0R7swR7sG/YJfFe3Vq/Q8uIAAAAASUVORK5CYII=" />
+<body> 
+            <div>
+                <input type="radio" name="paixu" id="paixu1" checked>
+                <label for="paixu1" style="cursor:pointer">按热门排序</label>
+                <input type="radio" name="paixu" id="paixu2">
+                <label for="paixu2" style="cursor:pointer">按时间排序</label>
+                <input type="radio" name="paixu" id="paixu3">
+                <label for="paixu3" style="cursor:pointer">按评价排序</label>
+            </div>
 </body>
-</html>
+ 
+</html>       

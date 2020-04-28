@@ -4,10 +4,14 @@ import App from './App.vue'
 import 'lib-flexible'
 import router from './router'
 import axios from 'axios'
+import iview from 'iview'
 import vConsole from './assets/vsconsole'
 // import vconsole from 'vconsole'
 // import $ from 'jquery'
 // import wxShare from 'weixin-js-sdk'
+Vue.use(iview)
+
+
 
 
 //vuex
@@ -15,12 +19,11 @@ import vuex from 'vuex'
 Vue.use(vuex)
 Vue.use(vConsole)
 
-
 import 'babel-polyfill'
-import Es6Promise from 'es6-promise'
+// import Es6Promise from 'es6-promise'
 import store from './store'
-require('es6-promise').polyfill()
-Es6Promise.polyfill()
+// require('es6-promise').polyfill()
+// Es6Promise.polyfill()
 
 Vue.config.productionTip = false
 Vue.prototype.$ajax = axios

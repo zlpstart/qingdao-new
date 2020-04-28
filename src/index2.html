@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="node_modules/vue/dist/vue.min.js"></script>
+    <script src="node_modules/axios/dist/axios.js"></script>
+    <style>
+        .test {
+            visibility: hidden;
+        }
+
+        .test+label {
+            width: 18px;
+            height: 18px;
+            background-color: white;
+            border: 1px gray solid;
+            display: block;
+            border-radius: 18px;
+            position: relative;
+            top: -18px;
+            left: -2px;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        .test:checked+label:before {
+            content: " ";
+            width: 18px;
+            height: 18px;
+            background: url("./assets/select.png") no-repeat;
+            background-size: 100% auto;
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            font-weight: bolder;
+            line-height: 18px;
+        }
+    </style>
+</head>
+
+<body>
+        <input type="checkbox" id="test1" class="test">同意
+        <label for="test1"></label>
+        <input type="checkbox" id="test" class="test">同意
+        <label for="test"></label>
+</body>
+
+</html>

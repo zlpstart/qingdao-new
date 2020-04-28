@@ -50,7 +50,7 @@
                 <div class="btn">
                     <button @click="Opinion">
                         意见反馈
-                        <img src="../assets/输入.png" alt="">
+                        <img src="../assets/import.png" alt="">
                     </button>
                 </div>
                 <div class="bottom">

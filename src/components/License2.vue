@@ -12,7 +12,7 @@
                     </div>
                     <div class="header_right_span">
                         <span>
-                            <img src="../assets/认证.png" alt="">
+                            <img src="../assets/authentication.png" alt="">
                             经办人
                         </span>
                     </div>
@@ -31,10 +31,10 @@
             <div class="content_minbox">
                 <div class="xian">
                     <div class="xian_left">
-                        <img src="../assets/连接.png" alt="">
+                        <img src="../assets/connect.png" alt="">
                     </div>
                     <div class="xian_right">
-                        <img src="../assets/连接.png" alt="">
+                        <img src="../assets/connect.png" alt="">
                     </div>
                 </div>
                 <div class="title">
